@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 675 96" width="675" height="96" role="img" aria-labelledby="t d">
+  <title id="t">Fulbito App — lockup de tienda</title>
+  <desc id="d">Lockup principal más el tag APP separado por una regla vertical. Uso exclusivo en fichas de App Store y Google Play, pie legal y documentos societarios.</desc>
+  <style type="text/css"><![CDATA[
+    @import url('https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&display=swap');
+    .wm{
+      font-family:'Archivo','Archivo Expanded','Inter','Helvetica Neue',Arial,sans-serif;
+      font-weight:700; font-stretch:110%;
+      font-variation-settings:'wdth' 110,'wght' 700;
+      font-size:115px; letter-spacing:-2.07px; fill:#0F1115;
+    }
+    .tag{
+      font-family:'Archivo','Archivo Expanded','Inter','Helvetica Neue',Arial,sans-serif;
+      font-weight:700; font-stretch:110%;
+      font-variation-settings:'wdth' 110,'wght' 700;
+      font-size:30px; letter-spacing:2.4px; fill:#6B7688;
+    }
+    .mk{fill:#1B4DFF;}
+  ]]></style>
+
+  <g class="mk">
+    <path d="M 40 0.6714 A 48 48 0 0 0 40 95.3286 Z"/>
+    <path d="M 56 0.6714 A 48 48 0 0 1 56 95.3286 Z"/>
+  </g>
+
+  <text class="wm" x="138" y="90" textLength="412" lengthAdjust="spacing">Fulbito</text>
+
+  <!-- Regla separadora · alto = cap height (84) · 3px · cal.400 -->
+  <rect x="578" y="6" width="3" height="84" fill="#98A2B3"/>
+
+  <text class="tag" x="609" y="59" textLength="66" lengthAdjust="spacing">APP</text>
+</svg>

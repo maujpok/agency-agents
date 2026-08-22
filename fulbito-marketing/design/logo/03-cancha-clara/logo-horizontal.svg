@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 590 108" width="590" height="108" role="img" aria-labelledby="t d">
+  <title id="t">Fulbito — lockup horizontal extendido</title>
+  <desc id="d">Variante de tamaño óptico para franjas anchas y bajas: símbolo Ø108, separación 63, tracking abierto a −1.0%.</desc>
+  <style type="text/css"><![CDATA[
+    @import url('https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&display=swap');
+    .wm{
+      font-family:'Archivo','Archivo Expanded','Inter','Helvetica Neue',Arial,sans-serif;
+      font-weight:700;
+      font-stretch:110%;
+      font-variation-settings:'wdth' 110,'wght' 700;
+      font-size:115px;
+      letter-spacing:-1.15px;
+      fill:#0F1115;
+    }
+    .mk{fill:#1B4DFF;}
+  ]]></style>
+
+  <!-- Símbolo · Ø108 (9u) · canal 18 (D/6) · centro 54,54 -->
+  <g class="mk">
+    <path d="M 45 0.7553 A 54 54 0 0 0 45 107.2447 Z"/>
+    <path d="M 63 0.7553 A 54 54 0 0 1 63 107.2447 Z"/>
+  </g>
+
+  <!-- Wordmark · cap 84 · baseline y=96 · x=171 (108 + 63) · ancho 419 -->
+  <text class="wm" x="171" y="96" textLength="419" lengthAdjust="spacing">Fulbito</text>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 306 65" width="306" height="65" role="img" aria-label="Fulbito">
+  <title>Fulbito — Logo horizontal</title>
+  <desc>Simbolo a la izquierda, wordmark a la derecha, centrados entre si. Recorte al area viva, fondo transparente.</desc>
+  <style type="text/css">
+    <![CDATA[
+      @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+      .wordmark {
+        font-family: 'Archivo Black', 'Arial Black', 'Helvetica Neue', Impact, sans-serif;
+        font-weight: 400;
+        font-size: 64px;
+        letter-spacing: -1.6px;
+      }
+    ]]>
+  </style>
+  <!-- ============================================================
+       LOGO HORIZONTAL · NOCTURNA · FulbitoApp
+       Version compacta para app bars, headers web y firmas de pie.
+       Simbolo a escala 1,25 (grilla 64 -> 80). X = 10px.
+         tinta del simbolo: x 0..60 · y 0..65
+       Separacion simbolo/wordmark = 2X = 20px -> tinta del wordmark
+       arranca en x = 80 (pen x = 75,3).
+       Wordmark: Archivo Black 64px, tracking -1,6px (-25/1000 em),
+       linea de base y = 55,3. Alineacion por centros de tinta, no
+       por linea de base: baja el alto total, que es lo que escasea
+       en una barra de 56dp.
+       Recorte al area viva: el archivo NO incluye area de proteccion.
+       Colores para fondo oscuro. Fondo transparente.
+       ============================================================ -->
+  <g transform="translate(-10,-7.5) scale(1.25)">
+    <path d="M20 6 L44 6 L47 14 L17 14 Z" fill="#F5A623"/>
+    <path d="M23 18 L32.5 18 L27.5 58 L8 58 Z" fill="#1DB954"/>
+    <path d="M36.5 18 L41 18 L56 58 L31.5 58 Z" fill="#1DB954"/>
+  </g>
+  <text class="wordmark" x="75.3" y="55.3" fill="#F5F5F5">Fulbito</text>
+</svg>

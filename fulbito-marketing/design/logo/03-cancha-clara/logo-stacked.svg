@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 412 272" width="412" height="272" role="img" aria-labelledby="t d">
+  <title id="t">Fulbito — lockup apilado</title>
+  <desc id="d">Símbolo Ø144 arriba, wordmark Fulbito centrado abajo. Para formatos cuadrados y verticales.</desc>
+  <style type="text/css"><![CDATA[
+    @import url('https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&display=swap');
+    .wm{
+      font-family:'Archivo','Archivo Expanded','Inter','Helvetica Neue',Arial,sans-serif;
+      font-weight:700;
+      font-stretch:110%;
+      font-variation-settings:'wdth' 110,'wght' 700;
+      font-size:115px;
+      letter-spacing:-2.07px;
+      fill:#0F1115;
+      text-anchor:middle;
+    }
+    .mk{fill:#1B4DFF;}
+  ]]></style>
+
+  <!-- Símbolo · Ø144 (12u) · canal 24 (D/6) · centro 206,72 -->
+  <g class="mk">
+    <path d="M 194 1.007 A 72 72 0 0 0 194 142.993 Z"/>
+    <path d="M 218 1.007 A 72 72 0 0 1 218 142.993 Z"/>
+  </g>
+
+  <!-- Wordmark · cap 84 · cap-top 186 (144 + H/2 42) · baseline y=270 · ancho 412 -->
+  <text class="wm" x="206" y="270" textLength="412" lengthAdjust="spacing">Fulbito</text>
+</svg>

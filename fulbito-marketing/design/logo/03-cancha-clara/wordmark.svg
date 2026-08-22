@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 412 90" width="412" height="90" role="img" aria-labelledby="t d">
+  <title id="t">Fulbito — wordmark solo</title>
+  <desc id="d">Wordmark sin símbolo, una tinta. Para firmas de mail, marcas de agua sobre plancha y espacios horizontales muy bajos.</desc>
+  <style type="text/css"><![CDATA[
+    @import url('https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&display=swap');
+    .wm{
+      font-family:'Archivo','Archivo Expanded','Inter','Helvetica Neue',Arial,sans-serif;
+      font-weight:700; font-stretch:110%;
+      font-variation-settings:'wdth' 110,'wght' 700;
+      font-size:115px; letter-spacing:-2.07px; fill:#0F1115;
+    }
+  ]]></style>
+  <text class="wm" x="0" y="87" textLength="412" lengthAdjust="spacing">Fulbito</text>
+</svg>

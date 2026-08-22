@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 550 96" width="550" height="96" role="img" aria-labelledby="t d">
+  <title id="t">Fulbito — logotipo principal</title>
+  <desc id="d">Símbolo: círculo partido en dos mitades iguales por un canal vertical. Wordmark: Fulbito en Archivo Expanded 700.</desc>
+  <style type="text/css"><![CDATA[
+    @import url('https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&display=swap');
+    .wm{
+      font-family:'Archivo','Archivo Expanded','Inter','Helvetica Neue',Arial,sans-serif;
+      font-weight:700;
+      font-stretch:110%;
+      font-variation-settings:'wdth' 110,'wght' 700;
+      font-size:115px;
+      letter-spacing:-2.07px;
+      fill:#0F1115;
+    }
+    .mk{fill:#1B4DFF;}
+  ]]></style>
+
+  <!-- Símbolo · Ø96 (8u) · canal 16 (D/6) · centro 48,48 -->
+  <g class="mk">
+    <path d="M 40 0.6714 A 48 48 0 0 0 40 95.3286 Z"/>
+    <path d="M 56 0.6714 A 48 48 0 0 1 56 95.3286 Z"/>
+  </g>
+
+  <!-- Wordmark · cap 84 (7u) · baseline y=90 · x=138 (símbolo 96 + H/2 42) · ancho 412 -->
+  <text class="wm" x="138" y="90" textLength="412" lengthAdjust="spacing">Fulbito</text>
+</svg>

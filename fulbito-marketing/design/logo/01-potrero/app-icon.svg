@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="pt-title pt-desc">
+  <title id="pt-title">Fulbito — app icon 1024×1024 POTRERO</title>
+  <desc id="pt-desc">Master de icono a sangre. Capa de fondo papel gastado e isotipo La Raya de 625 px de diametro centrado, dentro de la zona segura de 626 px del adaptive icon de Android y del squircle de iOS.</desc>
+  <defs>
+    <clipPath id="pt-disco" clipPathUnits="userSpaceOnUse">
+      <path d="M49.2 11.6C70.5 11.6 88.6 29.8 88.6 51C88.6 71.5 72.1 87.2 50.8 87.2C29.8 87.2 12 70 12 49.4C12 28.2 28.2 11.6 49.2 11.6Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- CAPA DE FONDO — Android: ic_launcher_background. A sangre, sin esquinas redondeadas: la mascara la pone el sistema. -->
+  <g id="capa-fondo">
+    <rect x="0" y="0" width="1024" height="1024" fill="#F4F0EB"/>
+  </g>
+
+  <!-- CAPA DE PRIMER PLANO — Android: ic_launcher_foreground. Disco de 625 px = 61 % del lienzo. -->
+  <g id="capa-primer-plano" transform="translate(101.6,109) scale(8.158)">
+    <g clip-path="url(#pt-disco)">
+      <path id="pasto"  d="M49.2 11.6C70.5 11.6 88.6 29.8 88.6 51C88.6 71.5 72.1 87.2 50.8 87.2C29.8 87.2 12 70 12 49.4C12 28.2 28.2 11.6 49.2 11.6Z" fill="#265E3A"/>
+      <path id="pelada" d="M29 2C31 6 32 9 33 12C39 20 40 30 41 40C42 50 45 57 50 64C56 72 63 74 69 80C72 84 74 88 76 94L-20 94L-20 2Z" fill="#C8391B"/>
+      <path id="raya"   d="M29 2C31 6 32 9 33 12C39 20 40 30 41 40C42 50 45 57 50 64C56 72 63 74 69 80C72 84 74 88 76 94" fill="none" stroke="#F4F0EB" stroke-width="6.6" stroke-linecap="butt"/>
+    </g>
+  </g>
+</svg>

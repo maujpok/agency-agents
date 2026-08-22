@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" width="96" height="96" role="img" aria-labelledby="t d">
+  <title id="t">Fulbito — isotipo</title>
+  <desc id="d">Círculo Ø96 partido por un canal vertical de 16 (D/6) en dos mitades exactamente iguales.</desc>
+  <g fill="#1B4DFF">
+    <path d="M 40 0.6714 A 48 48 0 0 0 40 95.3286 Z"/>
+    <path d="M 56 0.6714 A 48 48 0 0 1 56 95.3286 Z"/>
+  </g>
+</svg>

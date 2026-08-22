@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-label="Fulbito — icono de aplicacion">
+  <title>Fulbito — App icon 1024</title>
+  <desc>Icono de aplicacion: fondo Negro Noche a sangre e isotipo "El Haz" centrado dentro del area segura comun de iOS y Android.</desc>
+  <defs>
+    <!-- Luz de reflector. DECORATIVA: el icono funciona plano sin esto.
+         Para el build de una tinta, para impresion y para la capa de
+         primer plano del adaptive icon de Android, borrar el rect que
+         la usa (linea marcada abajo). -->
+    <radialGradient id="luzReflector" cx="0.5" cy="0.27" r="0.63">
+      <stop offset="0"   stop-color="#1DB954" stop-opacity="0.16"/>
+      <stop offset="0.5" stop-color="#1DB954" stop-opacity="0.055"/>
+      <stop offset="1"   stop-color="#1DB954" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- ============================================================
+       APP ICON · NOCTURNA · FulbitoApp · 1024 x 1024
+       Fondo #0A0A0A a sangre, sin transparencia (requisito de iOS).
+       Simbolo: grilla 64 escalada a 560 (scale 8,75), centro 512,512.
+         caja del simbolo 420 x 455px · x 302..722 · y 284,5..739,5
+         radio maximo del simbolo desde el centro: 309,6px
+           -> entra en la mascara circular de Android (r = 310px: los
+              66dp garantizados de un canvas adaptive de 108dp)
+           -> entra en el squircle de iOS con margen de sobra
+       Build solo-iOS (sin mascara circular) puede subir a grilla 700:
+         transform="translate(205,205) scale(10.9375)"
+         NO usar ese valor en el build de Android.
+       FONDO VERDE PROHIBIDO. Ver README, "El problema Spotify".
+       ============================================================ -->
+  <rect width="1024" height="1024" fill="#0A0A0A"/>
+  <rect width="1024" height="1024" fill="url(#luzReflector)"/><!-- borrable -->
+  <g transform="translate(232,232) scale(8.75)">
+    <path d="M20 6 L44 6 L47 14 L17 14 Z" fill="#F5A623"/>
+    <path d="M23 18 L32.5 18 L27.5 58 L8 58 Z" fill="#1DB954"/>
+    <path d="M36.5 18 L41 18 L56 58 L31.5 58 Z" fill="#1DB954"/>
+  </g>
+</svg>

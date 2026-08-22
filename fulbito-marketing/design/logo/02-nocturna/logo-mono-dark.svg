@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 306 65" width="306" height="65" role="img" aria-label="Fulbito">
+  <title>Fulbito — Logo monocromo oscuro</title>
+  <desc>Una sola tinta #0A0A0A para fondos claros. Misma geometria que el lockup horizontal.</desc>
+  <style type="text/css">
+    <![CDATA[
+      @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+      .wordmark {
+        font-family: 'Archivo Black', 'Arial Black', 'Helvetica Neue', Impact, sans-serif;
+        font-weight: 400;
+        font-size: 64px;
+        letter-spacing: -1.6px;
+      }
+    ]]>
+  </style>
+  <!-- ============================================================
+       MONO OSCURO · una tinta #0A0A0A · para fondos claros
+       Sin dorado, sin verde, sin degradado, sin glow.
+       Las tres masas se separan solo por aire: 4u entre cabezal y haz,
+       4u en el corte central. A una tinta el aire ES el dibujo.
+       Para otras tintas planas (Pantone, tampografia, grabado laser,
+       bordado) reemplazar los cuatro fill por la tinta que sea.
+       ============================================================ -->
+  <g transform="translate(-10,-7.5) scale(1.25)" fill="#0A0A0A">
+    <path d="M20 6 L44 6 L47 14 L17 14 Z"/>
+    <path d="M23 18 L32.5 18 L27.5 58 L8 58 Z"/>
+    <path d="M36.5 18 L41 18 L56 58 L31.5 58 Z"/>
+  </g>
+  <text class="wordmark" x="75.3" y="55.3" fill="#0A0A0A">Fulbito</text>
+</svg>

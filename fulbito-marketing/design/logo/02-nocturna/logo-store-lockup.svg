@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 358 65" width="358" height="65" role="img" aria-label="Fulbito App">
+  <title>Fulbito App — Lockup de tienda</title>
+  <desc>Lockup suplementario con el sufijo descriptivo "App". Uso exclusivo: ficha de App Store y Play Store, pie legal y documentos societarios.</desc>
+  <style type="text/css">
+    <![CDATA[
+      @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@600&display=swap');
+      .wordmark {
+        font-family: 'Archivo Black', 'Arial Black', 'Helvetica Neue', Impact, sans-serif;
+        font-weight: 400;
+        font-size: 64px;
+        letter-spacing: -1.6px;
+      }
+      .sufijo {
+        font-family: 'Archivo', 'Helvetica Neue', Arial, sans-serif;
+        font-weight: 600;
+        font-size: 22px;
+        letter-spacing: 0;
+      }
+    ]]>
+  </style>
+  <!-- ============================================================
+       LOCKUP DE TIENDA · SUPLEMENTARIO, no es el logo primario
+       "App" es un sufijo descriptivo, no parte de la marca.
+       Archivo 600 a 22px = 34% del cuerpo del wordmark, misma base.
+       Gris #8A938C (neutral.600 del UI kit): nunca blanco, nunca
+       verde, nunca dorado. El sufijo no compite, aclara.
+       Va como tspan con dx = 9: la separacion se sostiene aunque no
+       cargue la tipografia y entre la de respaldo.
+       Uso permitido: nombre en App Store y Play Store, contratos,
+       facturas, pie legal del sitio. En ningun otro lado.
+       ============================================================ -->
+  <g transform="translate(-10,-7.5) scale(1.25)">
+    <path d="M20 6 L44 6 L47 14 L17 14 Z" fill="#F5A623"/>
+    <path d="M23 18 L32.5 18 L27.5 58 L8 58 Z" fill="#1DB954"/>
+    <path d="M36.5 18 L41 18 L56 58 L31.5 58 Z" fill="#1DB954"/>
+  </g>
+  <text class="wordmark" x="75.3" y="55.3" fill="#F5F5F5">Fulbito<tspan class="sufijo" dx="9" fill="#8A938C">App</tspan></text>
+</svg>

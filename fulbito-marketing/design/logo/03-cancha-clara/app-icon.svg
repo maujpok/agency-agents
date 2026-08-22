@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="t d">
+  <title id="t">Fulbito — app icon 1024×1024</title>
+  <desc id="d">Master de tienda: fondo azul eléctrico a sangre, isotipo blanco Ø600 centrado, dentro del área segura de 626px del adaptive icon de Android y del squircle de iOS.</desc>
+
+  <!-- Capa de fondo (Android: ic_launcher_background). Borrar este rect para obtener el foreground. -->
+  <rect width="1024" height="1024" fill="#1B4DFF"/>
+
+  <!-- Capa de primer plano · isotipo Ø600 (58.6% del lienzo) · canal 100 (D/6) · centro 512,512 -->
+  <g fill="#FFFFFF">
+    <path d="M 462 216.196 A 300 300 0 0 0 462 807.804 Z"/>
+    <path d="M 562 216.196 A 300 300 0 0 1 562 807.804 Z"/>
+  </g>
+</svg>

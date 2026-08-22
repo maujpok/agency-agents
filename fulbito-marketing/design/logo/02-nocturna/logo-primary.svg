@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 492 148" width="492" height="148" role="img" aria-label="Fulbito">
+  <title>Fulbito — Logo primario</title>
+  <desc>Lockup principal sobre Negro Noche: isotipo "El Haz" y wordmark "Fulbito" apoyado en la linea de base del haz.</desc>
+  <style type="text/css">
+    <![CDATA[
+      @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+      .wordmark {
+        font-family: 'Archivo Black', 'Arial Black', 'Helvetica Neue', Impact, sans-serif;
+        font-weight: 400;
+        font-size: 92px;
+        letter-spacing: -2.3px;
+      }
+    ]]>
+  </style>
+  <!-- ============================================================
+       LOGO PRIMARIO · NOCTURNA · FulbitoApp
+       Simbolo a escala 1,75 (grilla 64 -> 112). X = 14px.
+       Tinta del simbolo: x 28..112 · y 28..119
+       Wordmark: Archivo Black 92px, tracking -2,3px (-25/1000 em).
+         tinta x 140..463,7 · linea de base y = 119
+         pen x = 140 - 0,074em = 133,2 (0,074em = lsb real de la "F")
+       La base del wordmark cae EXACTO en la base del haz (y = 119):
+       la palabra se apoya donde aterriza la luz.
+       Area de proteccion 2X = 28px, respetada en los cuatro lados.
+       El plato negro es parte del archivo: este logo esta definido
+       contra #0A0A0A. Sobre fondo claro va logo-mono-dark.svg.
+       ============================================================ -->
+  <rect width="492" height="148" fill="#0A0A0A"/>
+  <g transform="translate(14,17.5) scale(1.75)">
+    <path d="M20 6 L44 6 L47 14 L17 14 Z" fill="#F5A623"/>
+    <path d="M23 18 L32.5 18 L27.5 58 L8 58 Z" fill="#1DB954"/>
+    <path d="M36.5 18 L41 18 L56 58 L31.5 58 Z" fill="#1DB954"/>
+  </g>
+  <text class="wordmark" x="133.2" y="119" fill="#F5F5F5">Fulbito</text>
+</svg>

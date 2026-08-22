@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Fulbito — isotipo El Haz">
+  <title>Fulbito — Isotipo "El Haz"</title>
+  <desc>Reflector de cancha: cabezal dorado y el haz de luz que baja y se parte en dos mitades de area identica.</desc>
+  <!-- ============================================================
+       ISOTIPO "EL HAZ" · direccion NOCTURNA · FulbitoApp
+       Grilla 64 x 64 · Modulo X = 8u (alto del cabezal del reflector)
+       Caja optica: x 8..56 (48u = 6X) · y 6..58 (52u = 6.5X)
+       Cabezal: trapecio 24u arriba / 30u abajo x 8u de alto
+       Separacion cabezal-haz = 4u (X/2) · corte central = 4u (X/2)
+       Apertura del cono: 20,6 grados por lado
+       Areas: haz izquierdo 580u2 == haz derecho 580u2 (reparto parejo)
+       Dorado: 216u2 sobre 1376u2 = 15,7% del area del simbolo
+       ============================================================ -->
+    <path d="M20 6 L44 6 L47 14 L17 14 Z" fill="#F5A623"/>
+    <path d="M23 18 L32.5 18 L27.5 58 L8 58 Z" fill="#1DB954"/>
+    <path d="M36.5 18 L41 18 L56 58 L31.5 58 Z" fill="#1DB954"/>
+</svg>
