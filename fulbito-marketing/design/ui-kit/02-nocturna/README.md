@@ -45,7 +45,7 @@ La campaña tiene un solo negro porque una pieza gráfica es plana. Un producto 
 
 **2. Bebas Neue baja de protagonista a solista invitada.**
 Bebas es condensada, es solo mayúsculas, tiene un solo peso y una altura de x enorme. Es perfecta para "100 CAPITANES" a 200px y es un desastre para "Faltan 2 jugadores para el jueves". En un Story el ojo hace un escaneo; en una app hace lectura sostenida, y la condensada sostenida cansa y genera errores de lectura (la *I*, la *l* y el *1* se parecen demasiado a 14sp).
-**Regla:** Bebas Neue vive en display, marcadores, cifras de estadística y eyebrows de sección. Nunca por debajo de 16sp, nunca más de cuatro palabras, nunca en un párrafo, nunca en un campo de formulario, nunca en un mensaje de error. Ver §6 para la solución completa (una tercera familia puente).
+**Regla:** Bebas Neue vive en display, marcadores, cifras de estadística y eyebrows de sección. Nunca por debajo de 16sp, nunca más de cuatro palabras, nunca en un párrafo, nunca en un campo de formulario, nunca en un mensaje de error. Ver §5.1 para la solución completa (una tercera familia puente).
 
 **3. El dorado se raciona hasta volverlo escaso.**
 En la campaña la semana 4 es dorada entera. En el producto el dorado no puede pasar del **5% de los píxeles de una pantalla**, y solo aparece en tres contextos: la insignia del capitán, el botón de herramientas de capitán, y el anillo del avatar cuando el usuario es capitán del grupo que está mirando. Si el dorado aparece en un logro, en una notificación o en una promo, deja de significar jerarquía en dos semanas y se convierte en un amarillo más. **La escasez es la feature.**
@@ -177,7 +177,7 @@ Las combinaciones que **no** pasan y por eso están prohibidas, escritas acá pa
 
 ## 4. Modo claro
 
-NOCTURNA es dark-first, pero el light mode **no es una concesión**: es la respuesta al único escenario donde el dark falla de verdad (cancha al sol, §11). Tiene que sentirse como el mismo producto a otra hora del día, no como el mismo producto con el brillo roto.
+NOCTURNA es dark-first, pero el light mode **no es una concesión**: es la respuesta al único escenario donde el dark falla de verdad (cancha al sol, §10). Tiene que sentirse como el mismo producto a otra hora del día, no como el mismo producto con el brillo roto.
 
 ### Cómo se traduce sin degradarse
 
@@ -222,7 +222,7 @@ Cuatro decisiones que evitan que se sienta genérico:
 
 ### Cómo se elige el tema
 
-Por defecto la app sigue `platformBrightness` del sistema, con **dark como fallback** si el sistema no informa preferencia. Pero además existe el interruptor de un toque descrito en §11 (Modo Sol), que fuerza light desde el app bar de la pantalla de partido, sin entrar a Ajustes. Nadie con las manos mojadas y diez tipos esperando navega tres niveles de menú.
+Por defecto la app sigue `platformBrightness` del sistema, con **dark como fallback** si el sistema no informa preferencia. Pero además existe el interruptor de un toque descrito en §10 (Modo Sol), que fuerza light desde el app bar de la pantalla de partido, sin entrar a Ajustes. Nadie con las manos mojadas y diez tipos esperando navega tres niveles de menú.
 
 ---
 
@@ -607,7 +607,7 @@ Entra con slide-up de 220ms `decelerate`, sale con fade + slide-down de 140ms `a
 
 ### 9.1 "Próximo partido" (la pantalla de inicio)
 
-Arranca con un app bar transparente de 56 sobre el canvas negro: a la izquierda el nombre del grupo en `heading.3` truncado a una línea — "Los Pibes del Jueves" —, a la derecha dos íconos de 24 en `bold`, el de sol (Modo Sol, §11) y la campana con un punto verde si hay pendientes. **El app bar no colapsa al hacer scroll.** De noche, en la cancha, el capitán no debería tener que recordar en qué grupo está parado.
+Arranca con un app bar transparente de 56 sobre el canvas negro: a la izquierda el nombre del grupo en `heading.3` truncado a una línea — "Los Pibes del Jueves" —, a la derecha dos íconos de 24 en `bold`, el de sol (Modo Sol, §10) y la campana con un punto verde si hay pendientes. **El app bar no colapsa al hacer scroll.** De noche, en la cancha, el capitán no debería tener que recordar en qué grupo está parado.
 
 Debajo, el bloque héroe: no es una foto, es una tarjeta de 240 de alto a 16 de cada margen, `surface.1` con `radius.lg`, atravesada por un degradado radial verde al 8% que nace de la esquina superior derecha — la luz del reflector, sin peso de imagen. Arriba a la izquierda, el eyebrow en Bebas con tracking abierto: "PRÓXIMO PARTIDO". Debajo, la fecha en `display.medium`: "JUE 21:00", y a su derecha, alineado a la línea de base, un chip verde relleno con "EN 2 DÍAS" en negro. Tercera línea, el lugar en `heading.3`: "La Tablada — Cancha 3", y debajo, en `body.small` gris, "Nueva Córdoba · 12 min en auto · $4.500 por cabeza". Ocupando el alto del bloque a la derecha, un contador radial de 72: anillo de 6 que se llena en verde según los confirmados, con "9/10" en Bebas 28 al centro. Al pie de la tarjeta, cruzada por un divisor hairline, la fila de avatares de 32 superpuestos (seis visibles y un "+3") y, a la derecha, un terciario "Ver lista".
 
